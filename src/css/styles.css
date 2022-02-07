@@ -1,0 +1,51 @@
+body {
+  display: flex;
+}
+
+p {
+  font-family: "Open sans", Georgia, Serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input{
+  margin-top: 30px;
+}
+
+button{
+  margin-top: 30px;
+}
+
+.readfile {
+  width: 500px;
+  margin-left: 50px;
+  background-color: lightblue;
+  padding: 50px;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.tile-alive {
+  background-color: #73AD21;
+}
+
+.tile-dead {
+  background-color: #C62727;
+}
